@@ -8,7 +8,7 @@ class ListNode:
 
 
 def swapNodes(head: Optional[ListNode], k: int) -> Optional[ListNode]:
-    # The sliding range approach - swaps only value, not entire node
+    # The two pointers approach - swaps only value, not entire node
     left_node = head
 
     for i in range(1, k):
